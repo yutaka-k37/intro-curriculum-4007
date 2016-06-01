@@ -1,7 +1,7 @@
 'use strict';
-let $ = require('jquery');
-let block = $('#block');
-let scalingButton = $('#scaling-button');
+const  $ = require('jquery');
+const  block = $('#block');
+const  scalingButton = $('#scaling-button');
 
 scalingButton.click(() => {
   block.animate({ width: '200pt', height: '200pt' }, 2000);
